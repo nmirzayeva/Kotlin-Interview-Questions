@@ -14,5 +14,12 @@ The `Nothing` type in Kotlin represents a type that has no value. `Nothing?` is 
 The Elvis operator `?:` is used for null safety. The expression on the left side of `?:` is executed if it is not null; otherwise, the expression on the right side (the default scenario) is executed. For example: 
 ```kotlin
 val result = nullableValue ?: defaultValue
+```
+## 6. **Difference Between `Double` and `Float`**
+`Double` is used for larger floating-point numbers, while `Float` is used for smaller floating-point numbers. The memory consumption varies accordingly:
+- `Float` is **32-bit** (4 bytes) and has approximately **7 decimal digits** of precision.
+- `Double` is **64-bit** (8 bytes) and has approximately **15-16 decimal digits** of precision.
+
+We use `Float` when the number size is suitable, and we want to save memory.
 
 
