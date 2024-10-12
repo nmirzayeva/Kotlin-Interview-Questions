@@ -1,3 +1,7 @@
+<div style="text-align: center;">
+  <img src="https://github.com/user-attachments/assets/fc6c90c8-e7b2-4266-85f3-5d0fc7199122" alt="Kotlin" style="width: 80%; max-width: 600px;"/>
+     </div>
+
 ## 1. **Difference Between `val` and `const val`**
 `const val` assigns a value at compile-time, whereas `val` assigns a value at runtime. `const val` is advantageous when defining a constant value because it resolves the assignment during the compile phase, thus avoiding the need for runtime assignment.
 
