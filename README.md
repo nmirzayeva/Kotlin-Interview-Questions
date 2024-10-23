@@ -37,7 +37,17 @@ In Kotlin, smaller numeric types are not subclasses of larger numeric types. Ins
 
 The sum of a `Long` and an `Int` will be of type `Long`. The larger type (`Long`) determines the type of the result.
 
-Question 10: What happens if you compare the numbers 2 and 2.5 using ==?
+## 10. **What happens if you compare the numbers 2 and 2.5 using `==`**
+```kotlin
+fun main() {
+
+    val a :Number= 2
+    val b : Number = 2.5f
+
+    println(a==b)
+}
+```
+Comparing the numbers 2 and 2.5 using `==` will return false because 2 and 2.5 are not equal.
 
 
 
