@@ -29,5 +29,15 @@ We use `Float` when the number size is suitable, and we want to save memory.
 ## 7. **What are boxed and unboxed variables**
 Boxing refers to storing a variable as an object, while unboxing refers to storing it as a primitive type. In Kotlin, even if it seems like we are creating an `Int` object, it is automatically cast to a primitive `int` type in the Java bytecode.
 
+## 8. **Are smaller numeric types subclasses of larger numeric types in Kotlin? For instance, is `Byte` a subclass of `Short`, and Short a subclass of `In`t**
+
+In Kotlin, smaller numeric types are not subclasses of larger numeric types. Instead, all numeric types (`Byte`, `Short`, `Int`, `Long`, `Float`, `Double`) are subclasses of the Number class. Therefore, the answer is no; all numeric types share the common superclass Number.
+
+## 9. **What happens if I add a `Long` number to an `Int` number**
+
+The sum of a `Long` and an `Int` will be of type `Long`. The larger type (`Long`) determines the type of the result.
+
+Question 10: What happens if you compare the numbers 2 and 2.5 using ==?
+
 
 
