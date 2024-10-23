@@ -26,4 +26,8 @@ val result = nullableValue ?: defaultValue
 
 We use `Float` when the number size is suitable, and we want to save memory.
 
+## 7. **What are boxed and unboxed variables**
+Boxing refers to storing a variable as an object, while unboxing refers to storing it as a primitive type. In Kotlin, even if it seems like we are creating an `Int` object, it is automatically cast to a primitive `int` type in the Java bytecode.
+
+
 
